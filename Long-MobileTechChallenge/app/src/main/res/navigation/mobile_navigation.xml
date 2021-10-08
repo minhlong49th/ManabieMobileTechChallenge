@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/navigation_task">
+    <fragment
+        android:id="@+id/navigation_incomplete"
+        android:name="com.manabie.todo.ui.completed.CompletedTaskFragment"
+        android:label="@string/title_complete" />
+    <fragment
+        android:id="@+id/navigation_task"
+        android:name="com.manabie.todo.ui.task.TaskFragment"
+        android:label="@string/title_task" />
+</navigation>

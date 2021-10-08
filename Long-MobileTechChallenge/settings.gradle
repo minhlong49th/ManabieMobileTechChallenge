@@ -1,0 +1,2 @@
+rootProject.name = "Manabie -Mobile Tech Challenge - Long"
+include ':app'
